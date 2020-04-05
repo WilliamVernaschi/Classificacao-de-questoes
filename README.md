@@ -20,8 +20,9 @@
 ### Processo de criação
 A criação do programa foi separada em duas partes: 
 
-1. A obtenção do dataset de questões através de web scraping com requests e beautiful soup 4 no site <https://www.stoodi.com.br/>
-2. A manipulação dos dados com machine learning através do Scikit-learn e NLTK.
+1. - A obtenção do dataset de questões através de web scraping com requests e beautiful soup 4 no site <https://www.stoodi.com.br/> que contém mais de 38000 questões
+
+2. - A manipulação dos dados com machine learning através do Scikit-learn e NLTK.
 
 ---
 
