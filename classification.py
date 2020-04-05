@@ -57,8 +57,7 @@ def classifier_creator(min_df):
 
     return get_result
 
-# Descomente para utilizar o script
-#  
-# classifier = classifier_creator(min_df=11)
-# print(classifier('Qual é a origem da vida?'))
-# print(classifier('Qual é o resultado de 2+2?'))
+if __name__ == "__main__":
+    classifier = classifier_creator(min_df=11)
+    print(classifier('Qual é a origem da vida?'))
+    print(classifier('Qual é o resultado de 2+2?'))
