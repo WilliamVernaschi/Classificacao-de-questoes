@@ -5,7 +5,7 @@
 ---
 ### Como utilizar:
 
-`pip install scikit-learn nltk pandas`
+`pip install scikit-learn nltk pandas==0.25.1`
 
 `git clone https://github.com/WilliamVernaschi/Classificacao-de-questoes/`
 
