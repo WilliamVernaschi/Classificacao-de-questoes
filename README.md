@@ -1,6 +1,6 @@
 # Classificação de questões
 
-Identifica através de machine learning se uma questão pertence a matéria de matemática, física, biologia, etc.
+### Aplicação com interface gráfica que dentifica através de machine learning se uma questão pertence às materias de Física, Matemática, Química, Biologia, Literatura, Gramática, História, Geografia, Filosofia, Sociologia, Artes, Inglês ou Espanhol
 
 **Exemplo de funcionamento:**
 
