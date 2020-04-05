@@ -13,6 +13,8 @@
 
 `cd Classificacao-de-questoes`
 
+`python setup.py`
+
 `python classification-with-gui.py`
 
 ---
