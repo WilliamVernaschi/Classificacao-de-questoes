@@ -16,7 +16,7 @@ class ClassifierApp(tk.Tk):
         self.geometry('650x650')
         self.title('Classificador de questões')
         self.initialize_widgets()
-        print('Please wait while the classifier is being created!')
+        print('Aguarde enquanto o classificador é carregado.')
         self.classifier = classifier_creator(min_df=11)
 
     def initialize_widgets(self):
@@ -45,7 +45,7 @@ class ClassifierApp(tk.Tk):
         self.input_widget.pack(side=tk.TOP, pady=20)
         self.start_button.pack(side=tk.TOP)
 
-        self.wait_label = tk.Label(self, text='Por favor, aguarde enquanto seu texto está sendo processado',
+        self.wait_label = tk.Label(self, text='Aguarde enquanto seu texto está sendo processado',
         font=self.small_font, fg='blue', wraplength=600)
 
     
