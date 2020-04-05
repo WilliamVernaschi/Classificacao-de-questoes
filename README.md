@@ -5,6 +5,8 @@
 ---
 ### Como utilizar:
 
+- Instale os Pacotes Redistribuíveis do Visual C++: <https://www.microsoft.com/pt-br/download/details.aspx?id=48145>
+
 `pip install scikit-learn nltk pandas==0.25.1`
 
 `git clone https://github.com/WilliamVernaschi/Classificacao-de-questoes/`
