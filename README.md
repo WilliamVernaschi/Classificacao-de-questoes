@@ -6,6 +6,9 @@ Identifica através de machine learning se uma questão pertence a matéria de m
 
 ![gif](https://media1.tenor.com/images/2040f65235c3e52174b44b3602095c02/tenor.gif)
 
+**Gráfico representando a quantidade de questões de cada matéria no dataset**
+
+![plot](https://i.imgur.com/cxiwIPf.png)
 
 **Precisão no acerto das questões:**
 | Matéria           | Precisão |
