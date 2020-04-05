@@ -1,11 +1,31 @@
 # Classificação de questões
 
-### Aplicação com interface gráfica que dentifica através de machine learning se uma questão pertence às materias de Física, Matemática, Química, Biologia, Literatura, Gramática, História, Geografia, Filosofia, Sociologia, Artes, Inglês ou Espanhol
+## Aplicação com interface gráfica que dentifica através de machine learning se uma questão pertence às materias de Física, Matemática, Química, Biologia, Literatura, Gramática, História, Geografia, Filosofia, Sociologia, Artes, Inglês ou Espanhol.
 
-**Exemplo de funcionamento:**
+---
+### Como utilizar:
+
+`pip install scikit-learn nltk`
+
+`python3 classification-with-gui.py`
+
+---
+
+### Exemplo de funcionamento
 
 ![gif](https://media1.tenor.com/images/2040f65235c3e52174b44b3602095c02/tenor.gif)
 
+---
+
+### Processo de criação
+A criação do programa foi separada em duas partes: 
+
+1. A obtenção do dataset de questões através de web scraping com requests e beautiful soup 4 no site <https://www.stoodi.com.br/>
+2. A manipulação dos dados com machine learning através do Scikit-learn e NLTK.
+
+---
+
+### Dados adicionais
 **Gráfico representando a quantidade de questões de cada matéria no dataset**
 
 ![plot](https://i.imgur.com/cxiwIPf.png)
@@ -27,3 +47,9 @@
 | Gramática         | 54%      |
 | Artes             | 37%      |
 | Média aritimética | 84%      |
+
+---
+
+### Fontes
+
+<https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f>
