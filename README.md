@@ -6,8 +6,11 @@
 ### Como utilizar:
 
 `pip install scikit-learn nltk`
+
 `git clone https://github.com/WilliamVernaschi/Classificacao-de-questoes/`
+
 `cd Classificacao-de-questoes`
+
 `python classification-with-gui.py`
 
 ---
