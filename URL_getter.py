@@ -16,8 +16,8 @@ def URL_to_soup(url):
     return soup
 
 
-def href_from_soup(text):
-    URL = text.find('a')
+def href_from_soup(soup):
+    URL = soup.find('a')
     question_URL = URL.get('href')
 
     return question_URL
