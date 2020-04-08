@@ -10,6 +10,7 @@ class ClassifierApp(tk.Tk):
     normal_font = ('courier 10 pitch', 20)
     small_font = ('courier 10 pitch', 15)
     prediction = ''
+    q eu explico como 
 
     def __init__(self):
         super().__init__()
