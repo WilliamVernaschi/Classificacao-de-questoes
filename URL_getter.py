@@ -9,6 +9,7 @@ STOODI_URL = 'https://www.stoodi.com.br'
 all_subjects = ['fisica', 'matematica', 'quimica', 'biologia', 'literatura', 'gramatica'\
 ,'historia', 'geografia', 'filosofia', 'sociologia', 'artes', 'ingles', 'espanhol']
 
+Endgame
 def URL_to_soup(url):
     source = requests.get(url).text
     soup = BeautifulSoup(source, 'lxml')
