@@ -3,9 +3,7 @@
 ## Aplicação com interface gráfica que identifica através de machine learning se uma questão pertence às materias de Física, Matemática, Química, Biologia, Literatura, Gramática, História, Geografia, Filosofia, Sociologia, Artes, Inglês ou Espanhol.
 
 ---
-### Como utilizar:
-
-[Instale os Pacotes Redistribuíveis do Visual C++](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)
+### Instalação:
 
 `pip install scikit-learn nltk pandas==0.25.1`
 
